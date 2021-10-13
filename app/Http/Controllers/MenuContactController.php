@@ -48,7 +48,7 @@ class MenuContactController extends Controller
 
         //jika data berhasil ditambahkan, akan kembali ke halaman utama
         return redirect()->route('menucontact.index')
-            ->with('success', 'Contact Berhasil Ditambahkan');
+            ->with('success', 'Contact Berhasil Ditambahkan'); 
     }
 
     /**
