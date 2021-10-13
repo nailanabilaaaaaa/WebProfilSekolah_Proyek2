@@ -62,6 +62,10 @@
                             </li>
 
                             <li class="nav-item">
+                                <a class="nav-link" href="{{ route('menuprogram.index') }}">{{ __('Program') }}</a>
+                            </li>
+
+                            <li class="nav-item">
                                 <a class="nav-link" href="{{ route('menugaleri.index') }}">{{ __('Galeri') }}</a>
                             </li>
 

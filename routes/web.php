@@ -10,6 +10,7 @@ use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MenuProfilController;
 use App\Http\Controllers\MenuDataController;
+use App\Http\Controllers\MenuProgramController;
 use App\Http\Controllers\MenuGaleriController;
 use App\Http\Controllers\MenuBeritaController;
 use App\Http\Controllers\MenuContactController;
@@ -44,15 +45,14 @@ Route::get('/Beranda', function(){
     return view('Beranda');
 });
 
-Route::get('/Program', function () {
-    return view('Program');
-});
-
 Route::resource('/menuprofil', MenuProfilController::class);
 Route::resource('/Profil', ProfilController::class);
 
 Route::resource('/menudata', MenuDataController::class);
 Route::resource('/Data', DataController::class);
+
+Route::resource('/menuprogram', MenuProgramController::class);
+Route::resource('/Program', ProgramController::class);
 
 Route::resource('/menugaleri', MenuGaleriController::class);
 Route::resource('/Galeri', GaleriController::class);

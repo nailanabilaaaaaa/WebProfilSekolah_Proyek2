@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Program;
 
-class ProgramController extends Controller
+class MenuProgramController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +15,7 @@ class ProgramController extends Controller
     public function index()
     {
         $program = Program::get();
-        return view('Program', compact('program'));
+        return view('menuprogram.index', compact('program'));
     }
 
     /**
@@ -25,7 +25,8 @@ class ProgramController extends Controller
      */
     public function create()
     {
-        //
+        $program = Program::all();
+        return view('menuprogram.create');
     }
 
     /**
@@ -36,7 +37,21 @@ class ProgramController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'no1' => 'required',
+            'kegiatan1' => 'required',
+			'no2' => 'required',
+            'kegiatan2' => 'required',
+			'no3' => 'required',
+            'lainnya' => 'required',
+        ]);
+
+        //fungsi eloquent untuk menambah data
+        Program::create($request->all());
+
+        //jika data berhasil ditambahkan, akan kembali ke halaman utama
+        return redirect()->route('menuprogram.index')
+            ->with('success', 'Program Berhasil Ditambahkan');
     }
 
     /**
@@ -47,7 +62,8 @@ class ProgramController extends Controller
      */
     public function show($id)
     {
-        //
+        $program = Program::find($id);
+        return view('menuprogram.show', compact('program'));
     }
 
     /**
@@ -58,7 +74,8 @@ class ProgramController extends Controller
      */
     public function edit($id)
     {
-        //
+        $program = Program::find($id);
+        return view('menuprogram.edit', compact('program'));
     }
 
     /**
@@ -70,7 +87,18 @@ class ProgramController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'no1' => 'required',
+            'kegiatan1' => 'required',
+			'no2' => 'required',
+            'kegiatan2' => 'required',
+			'no3' => 'required',
+            'lainnya' => 'required',
+        ]);
+
+        Program::find($id)->update($request->all());
+
+        return redirect()->route('menuprogram.index')->with('success', 'Program Berhasil Diupdate');
     }
 
     /**
@@ -81,6 +109,7 @@ class ProgramController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Program::find($id)->delete();
+        return redirect()->route('menuprogram.index')->with('success', 'Program Berhasil Dihapus');
     }
 }

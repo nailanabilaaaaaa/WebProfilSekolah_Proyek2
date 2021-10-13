@@ -35,48 +35,14 @@
                         <th>Kegiatan</th>
                       </tr>
                     </thead>
+                    @foreach ($program as $value)
                     <tbody>
                       <tr>
-                        <td>1</td>
-                        <td>5 S (Senyum, Sapa, Salim, Sopan, santun) di gerbang depan sekolah</td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>Doa bersama di halaman sekolah sebelum kegiatan pembelajaran</td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>Membaca Asmaul Husna bersama</td>
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>Menanyikan lagu Indonesia Raya dan lagu wajib nasional</td>
-                      </tr>
-                      <tr>
-                        <td>5</td>
-                        <td>Sholah Dhuha berjamaah (kelas 2-6) bergiliran</td>
-                      </tr>
-                      <tr>
-                        <td>6</td>
-                        <td>Kegiatan Literasi sebelum sebelum kegiatan pembelajaran</td>
-                      </tr>
-                      <tr>
-                        <td>7</td>
-                        <td>Sholat Dhuhur berjamaah (kelas 1-6) bergantian</td>
-                      </tr>
-                      <tr>
-                        <td>8</td>
-                        <td>Sholat Ashar berjamaah (Kelas 4-6)</td>
-                      </tr>
-                      <tr>
-                        <td>9</td>
-                        <td>Menyayikan lagu daerah sebelum kegiatan pembelajaran diakhiri</td>
-                      </tr>
-                      <tr>
-                      <td>10</td>
-                        <td>Doa bersama sebelum pulang</td>
+                      <td>{{ $value->no1}}</td>
+                      <td>{{ $value->kegiatan1}}</td>
                       </tr>
                     </tbody>
+                    @endforeach
                   </table>
                 </div>
               </div>
@@ -94,41 +60,14 @@
                         <th>No</th>
                         <th>Kegiatan</th>
                       </tr>
-                    </thead>
+                    </thead>@foreach ($program as $value)
                     <tbody>
                       <tr>
-                        <td>1</td>
-                        <td>Upacara bendera (Hari Senin dan hari besar kenegaraan)</td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>Amal Hari Selasa</td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>15 menit pacelathon Bahasa Jawa (Setiap Hari Rabu)</td>
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>Kegiatan Jumat Bersih</td>
-                      </tr>
-                      <tr>
-                        <td>5</td>
-                        <td>Amal Hari Jumat</td>
-                      </tr>
-                      <tr>
-                        <td>6</td>
-                        <td>Shoat Jumat Berjamaah i Masjid Baitul Makmur Kelurahan Bareng</td>
-                      </tr>
-                      <tr>
-                        <td>7</td>
-                        <td>Keputrian</td>
-                      </tr>
-                      <tr>
-                        <td>8</td>
-                        <td>Senam Sehat Ceria Anak Indonesia</td>
+                      <td>{{ $value->no2}}</td>
+                      <td>{{ $value->kegiatan2}}</td>
                       </tr>
                     </tbody>
+                    @endforeach
                   </table>
                 </div>
               </div>
@@ -151,36 +90,14 @@
 		                    <table class="table table-bordered table-striped table-hover">
 			                    <thead>
                           </thead>
-                          <tbody>
-                          <tr>
-                              <th scope="row">1</th>
-                              <td>Kegiatan Ekstrakurikuler, yang merupakan program dari kesiswaan untuk pengembangan bakat dan minat peserta didik serta mempersiapkan siswa dalam lomba di bidang non akademik, meliputi :</td>
-                          </tr>
-                          <tr>
-                              <th scope="row"></th>
-                              <td>a.	Ekstrakurikuler Pramuka : Setiap hari Kamis kelas III – V</td>
-                          </tr>
-                          <tr>
-                              <th scope="row"></th>
-                              <td>b.	Ekstrakurikuler Bahasa Inggris : Terjadwal , Kelas I – VI</td>
-                          </tr>
-                          <tr>
-                              <th scope="row"></th>
-                              <td>c.	Ekstrakurikuler TIK : Terjadwal Kelas IV – VI</td>
-                          </tr>
-                          <tr>
-                              <th scope="row"></th>
-                              <td>d.	Ekstrakurikuler BTQ : Terjadwal Kelas I – V</td>
-                          </tr>
-                          <tr>
-                              <th scope="row">2</th>
-                              <td>Pembelajaran Berbasis IT</td>
-                          </tr>
-                          <tr>
-                              <th scope="row">3</th>
-                              <td>Pembelajaran menggunakan media pembelajaran berupa LCD</td>
-                          </tr>
-                          </tbody>
+                          @foreach ($program as $value)
+                    <tbody>
+                      <tr>
+                      <td>{{ $value->no3}}</td>
+                      <td>{{ $value->lainnya}}</td>
+                      </tr>
+                    </tbody>
+                    @endforeach
                         </table>
                       </div>
                     </div>
