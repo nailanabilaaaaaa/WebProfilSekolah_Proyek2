@@ -14,10 +14,7 @@ class Berita extends Model
     protected $primaryKey = 'id'; // Memanggil isi DB Dengan primarykey
 
     protected $fillable = [
-
         'title',
         'content',
-
-
     ];
 }

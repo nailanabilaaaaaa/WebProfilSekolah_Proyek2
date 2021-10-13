@@ -12,7 +12,7 @@
                         <li class="list-group-item"><b>Konten Berita : </b>{{ $berita->content }}</li>
                     </ul>
                 </div>
-                <a class="btn btn-success" href="{{ route('menuberita.index') }}">Kembali</a>
+                <a class="btn btn-success" href="{{ route('menuberita.index') }}">Kembali</a> 
             </div>
         </div>
     </div>

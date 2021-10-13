@@ -25,7 +25,7 @@ class BeritaController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**

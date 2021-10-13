@@ -22,5 +22,6 @@ class BeritaSeeder extends Seeder
              "Secara klinis dan secara statistik jauh lebih valid, jauh lebih jelas sasarannya, dan tidak merugikan (sekolah yang bisa menjaga disiplin protokol kesehatan)," tuturnya. Untuk itu, pemerintah akan mengubah strategi menjadi strategi pelacakan kasus secara aktif (active case finding). Di mana sebelumnya, pelacakan menargetkan kepada orang-orang bergejala, maka ke depan akan diubah menjadi lebih aktif melakukan pelacakan kontak (contact tracing) dan surveilans (survei).
               "Kita akan lakukan testing sekitar 1,7 juta per bulan, atau sekitar 30 ribu orang per hari," jelasnya. Kemudian, bilamana ditemukan kasus positif di sekolah penyelenggara PTM terbatas, maka dilakukan prosedur isolasi dan karantina. Bilamana kasus terkonfirmasi positif mencapai satu sampai dengan lima persen, maka dilakukan tes untuk semua rombongan belajar (rombel) dan semua rombongan belajar dikarantina di rumah.',
         ]);
+        
     }
 }

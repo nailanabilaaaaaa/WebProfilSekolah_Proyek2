@@ -13,7 +13,7 @@
                         <li class="list-group-item"><b>Location : </b>{{ $contact->location }}</li>
                     </ul>
                 </div>
-                <a class="btn btn-success mt-3" href="{{ route('menucontact.index') }}">Kembali</a>
+                <a class="btn btn-success mt-3" href="{{ route('menucontact.index') }}">Kembali</a> 
             </div>
         </div>
     </div>

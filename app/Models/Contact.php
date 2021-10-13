@@ -14,7 +14,6 @@ class Contact extends Model
     protected $primaryKey = 'id'; // Memanggil isi DB Dengan primarykey
 
     protected $fillable = [
-
         'phone',
         'email',
         'location',

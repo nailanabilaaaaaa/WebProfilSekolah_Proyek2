@@ -47,7 +47,7 @@ class MenuBeritaController extends Controller
 
         //jika data berhasil ditambahkan, akan kembali ke halaman utama
         return redirect()->route('menuberita.index')
-            ->with('success', 'Berita Berhasil Ditambahkan');
+            ->with('success', 'Berita Berhasil Ditambahkan'); 
     }
 
     /**

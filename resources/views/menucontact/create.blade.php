@@ -35,7 +35,7 @@
                         <button type="submit" class="btn btn-primary float-right">Submit</button>
                     </form>
                 </div>
-                <a class="btn btn-success" href="{{ route('menucontact.index') }}">Kembali</a>
+                <a class="btn btn-success" href="{{ route('menucontact.index') }}">Kembali</a> 
             </div>
         </div>
     </div>

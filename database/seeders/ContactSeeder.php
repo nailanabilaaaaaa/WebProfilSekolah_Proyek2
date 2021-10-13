@@ -20,5 +20,6 @@ class ContactSeeder extends Seeder
             'email' => 'sdn1bareng@gmail.com',
             'location' => 'Jl. Kelud No.10 A, Kauman, Kec. Klojen,Kota Malang, Jawa Timur 65116',
         ]);
+        
     }
 }
