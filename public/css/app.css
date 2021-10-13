@@ -1648,7 +1648,7 @@ pre code {
 }
 .table {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: rem;
   color: #212529;
 }
 .table th,
@@ -1960,7 +1960,7 @@ pre code {
 .form-control {
   display: block;
   width: 100%;
-  height: calc(1.6em + 0.75rem + 2px);
+  height: calc(1.6em + 0.75rem + 10px);
   padding: 0.375rem 0.75rem;
   font-size: 0.9rem;
   font-weight: 400;
@@ -2527,14 +2527,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-info {
-  color: #212529;
-  background-color: #6cb2eb;
-  border-color: #6cb2eb;
+  color: #fff;
+  background-color: #40b121;
+  border-color: #40b121;
 }
 .btn-info:hover {
   color: #fff;
-  background-color: #4aa0e6;
-  border-color: #3f9ae5;
+  background-color: #1f9129;
+  border-color: #40b121;
 }
 .btn-info:focus, .btn-info.focus {
   color: #fff;
