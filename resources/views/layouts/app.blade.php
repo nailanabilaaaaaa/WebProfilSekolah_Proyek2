@@ -9,7 +9,7 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Finance Business HTML5 Template</title>
+    <title>SD NEGERI 1 BARENG MALANG</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -46,8 +46,8 @@ https://templatemo.com/tm-545-finance-business
         <div class="row">
           <div class="col-md-8 col-xs-12">
             <ul class="left-info">
-              <li><a href="#"><i class="fa fa-clock-o"></i>Mon-Fri 09:00-17:00</a></li>
-              <li><a href="#"><i class="fa fa-phone"></i>090-080-0760</a></li>
+              <li><a href="#"><i class="fa fa-clock-o"></i>Mon-Fri 07:00-15:00</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>0341-350741</a></li>
             </ul>
           </div>
           <div class="col-md-4">
@@ -65,25 +65,34 @@ https://templatemo.com/tm-545-finance-business
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><h2>Finance Business</h2></a>
+          <a class="navbar-brand" href="Beranda"><h2>SD NEGERI 1 BARENG MALANG</h2></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="HalamanHome">Home
+                <a class="nav-link" href="Beranda">Beranda
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="HalamanAbout">About Us</a>
+                <a class="nav-link" href="Profil">Profil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="HalamanServices">Our Services</a>
+                <a class="nav-link" href="Data">Data</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="HalamanContact">Contact Us</a>
+                <a class="nav-link" href="Program">Program</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Galeri">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Berita">Berita</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -101,8 +110,8 @@ https://templatemo.com/tm-545-finance-business
       <div class="container">
         <div class="row">
           <div class="col-md-3 footer-item">
-            <h4>Finance Business</h4>
-            <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.</p>
+            <h4>Profil</h4>
+            <p>SD NEGERI 1 BARENG MALANG</p>
             <ul class="social-icons">
               <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -167,9 +176,7 @@ https://templatemo.com/tm-545-finance-business
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <p>Copyright &copy; 2020 Financial Business Co., Ltd.
-            
-            - Design: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+            <p>Copyright &copy; 2021 Kelompok 8 - Proyek 2.
           </div>
         </div>
       </div>
