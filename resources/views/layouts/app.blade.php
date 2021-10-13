@@ -110,7 +110,7 @@ https://templatemo.com/tm-545-finance-business
       <div class="container">
         <div class="row">
           <div class="col-md-3 footer-item">
-            <h4>Profil</h4>
+            <h4>Website</h4>
             <p>SD NEGERI 1 BARENG MALANG</p>
             <ul class="social-icons">
               <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -120,23 +120,22 @@ https://templatemo.com/tm-545-finance-business
             </ul>
           </div>
           <div class="col-md-3 footer-item">
-            <h4>Useful Links</h4>
+            <h4>Menu Utama</h4>
             <ul class="menu-list">
-              <li><a href="#">Vivamus ut tellus mi</a></li>
-              <li><a href="#">Nulla nec cursus elit</a></li>
-              <li><a href="#">Vulputate sed nec</a></li>
-              <li><a href="#">Cursus augue hasellus</a></li>
-              <li><a href="#">Lacinia ac sapien</a></li>
+              <li><a href="Beranda">Beranda</a></li>
+              <li><a href="Profil">Profil</a></li>
+              <li><a href="Data">Data</a></li>
+              <li><a href="Program">Program</a></li>
+              <li><a href="Galeri">Galeri</a></li>
+              <li><a href="Berita">Berita</a></li>
+              <li><a href="Contact">Contact</a></li>
             </ul>
           </div>
           <div class="col-md-3 footer-item">
-            <h4>Additional Pages</h4>
+            <h4>Akademik</h4>
             <ul class="menu-list">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">How We Work</a></li>
-              <li><a href="#">Quick Support</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Guru</a></li>
+              <li><a href="#">Siswa</a></li>
             </ul>
           </div>
           <div class="col-md-3 footer-item last-item">
