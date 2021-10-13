@@ -36,7 +36,7 @@
                     <a class="btn btn-primary" href="{{ route('menucontact.edit', $contact->id) }}">Edit</a>
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <button type="submit" class="btn btn-danger">Delete</button> 
                 </form>
             </td>
         </tr>
